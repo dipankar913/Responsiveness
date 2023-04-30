@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS flexbox</title>
+    <style>
+        h1{
+            align-items: center;
+        }
+        .flex-container{
+            display: flex;
+        }
+        .card{
+            height: 100px;
+            flex: 1;
+            border: 5px solid black;
+        }
+
+        .reddiv{
+            background-color: red;
+            flex: 2;
+        }
+        .greendiv{
+            background-color: green;
+            flex: 0.5;
+        }
+        .bluediv{
+            background-color: blue;
+        }
+        .yellowdiv{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div><h1>CSS framework responsive</h1></div>
+    <div class="flex-container">
+        <div class="reddiv card"></div>
+        <div class="greendiv card"></div>
+        <div class="bluediv card"></div>
+        <div class="yellowdiv card"></div>
+    </div>    
+</body>
+</html>

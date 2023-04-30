@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media-Query Responsive</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        .square{
+            background-color: rebeccapurple;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
+
+        @media (max-width: 800px) {
+            h1{
+                text-align: center;
+            }
+            .square{
+                background-color: blue;
+                width: 300px;
+                height: 300px;
+                margin: auto;
+            }
+        }
+
+        
+        @media (max-width: 500px) {
+            h1{
+                text-align: center;
+            }
+            .square{
+                background-color: red;
+                width: 300px;
+                height: 300px;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div><h1>Media Query responsive</h1></div>
+    <div class="square"></div>
+</body>
+</html>
